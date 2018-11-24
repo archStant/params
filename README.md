@@ -1,4 +1,4 @@
-# pyparams
+# params
 An automatic handling of parameter passing to python programs
 
 ## Usage
