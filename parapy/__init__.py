@@ -1,5 +1,7 @@
 import sys
 
+name = "params"
+
 
 def params(parameters):
     argv = sys.argv
