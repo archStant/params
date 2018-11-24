@@ -6,14 +6,14 @@ Import the script. Then in the top of your own document, define a list of tuples
 
 The library supports prefixed parameters (i.e. whatever comes after '-i'), boolean parameters (i.e. if '-a' is passed) and positional parameters (i.e. the second parameter without a prefix).
 
-Currently supported types are str, int, float and bool. Multi-word parameters _must_ be enclosed in quotes.
+Currently supported types are str, int, float and bool. Multi-word parameters must be enclosed in quotes.
 
 ## Installation
 Install using pip by running `pip install parapy`.
 
 ## Example
 ```
-import params
+import parapy
 
 parameters = [('output', '-o', str),   # A string parameter with prefix '-o'
               ('amount', '-n', int),   # An integer parameter with prefix '-n'
