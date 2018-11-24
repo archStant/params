@@ -2,7 +2,7 @@
 An automatic handling of parameter passing to python programs
 
 ## Usage
-Import the script. Then in the top of your own document, define a list of tuples of all your parameters of the form ('name', 'prefix'/position, type), and then call the library using `params.params(Your_Parameters)`. This will return a dictionary of all the parameters of the form {'name' : value}.
+Import the script. Then in the top of your own document, define a list of tuples of all your parameters of the form ('name', 'prefix'/position, type), and then call the library using `parapy.params(Your_Parameters)`. This will return a dictionary of all the parameters of the form {'name' : value}.
 
 The library supports prefixed parameters (i.e. whatever comes after '-i'), boolean parameters (i.e. if '-a' is passed) and positional parameters (i.e. the second parameter without a prefix).
 
@@ -24,7 +24,7 @@ parameters = [('output', '-o', str),   # A string parameter with prefix '-o'
               ('message', '-m', str)]  # A string parameter with prefix '-m'
 
 
-p = (params.params(parameters))
+p = (parapy.params(parameters))
 
 print(p)
 ```
