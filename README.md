@@ -8,6 +8,9 @@ The library supports prefixed parameters (i.e. whatever comes after '-i'), boole
 
 Currently supported types are str, int, float and bool. Multi-word parameters _must_ be enclosed in quotes.
 
+## Installation
+Install using pip by running `pip install parapy`.
+
 ## Example
 ```
 import params
